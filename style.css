@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+    color: #d3d3d3;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header_right {
+    /* float: right; */
+    display: flex;  /* flex yapisi */
+    justify-content: right;  /* yatayda hizalama yapar. */
+}
+
+.header_right ul li {
+    display: inline;
+    vertical-align: middle;
+}
+
+.header_right img {
+    width: 1.75em;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.header_right img:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header_right a {
+    color: #d3d3d3;
+    font-size: 0.6em;
+    padding: 0.5em;
+}
+
+.header_right a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logo {
+    width: 238px;
+}
+
+.search_bar{
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.search_bar .input_bar {
+    width: 270px;
+    background-color: #202124;
+    border: none;
+    outline: none;
+    color: #d3d3d3;
+}
+
+.search_bar:hover, 
+.search_bar:hover .input_bar {
+    background-color: #3b3c3d;
+}
+
+.search_bar .keyboard_icon {
+    width: 1.25em;
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+.search_bar .mic_icon {
+    width: 0.8em;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.search_bar .photo_search_icon {
+    width: 1.15em;
+    vertical-align: middle;
+    
+}
+
+.glass_icon {
+    width: 0.8em;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.main_btn {
+    background-color:#33353a;
+    color: #d3d3d3;
+    font-size: 0.6em;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 14px;
+    margin: 4px;
+}
+
+.main_btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor:pointer; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.7em;
+    background-color: #171717;
+    line-height: 30px;
+    width: 100%;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer a {
+    color:#d3d3d3;
+    padding: 0.5em;
+
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer_country {
+    border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 25px;
+}
+
+
+.footer .footer_left {
+    float: left;
+    padding-left: 20px;
+    
+}
+
+.footer .footer_right {
+    float: right;
+    padding-right: 20px;
+}
+
+
+
+
+
